@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable variant="primary" type="dark">
+    <b-navbar toggleable fixed="top" variant="primary" type="dark">
       <b-navbar-brand href="#/">
         &bull;&bull; gamechoice &bull;&bull;
       </b-navbar-brand>
@@ -29,7 +29,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.collapse * {
-  color: #FFFFFF !important;
-}
+  .navbar {
+    z-index: 2000;
+  }
 </style>
